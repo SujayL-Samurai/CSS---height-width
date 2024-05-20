@@ -1,0 +1,43 @@
+height and width;
+
+padding
+box-sizzing
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="style.css">
+		
+<div class="container">	
+	<div class="box">
+		<h1>This is #1</h1>
+		</div>
+
+	<div class="box">
+		<h1>This is #2</h1>
+	</div>
+</div>
+</body>
+</html>
+
+
+Style.css
+
+.container{
+    background-color: gray;
+    height: 100vh;
+}
+
+.box{
+    background-color: aquamarine;
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    max-height: 100%;
+}
